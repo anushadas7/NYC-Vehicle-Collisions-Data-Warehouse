@@ -1,4 +1,5 @@
 # NYC-Vehicle-Collisions-Data-Warehourse
+
 ## About the dataset
 
 The dataset used is NYPD's Motor Vehicle Collisions, which is provided by the NYC Open Data repository. This dataset was created for the Vision Zero initiative, which is a multi-national road traffic safety project that aims at decreasing the number of fatalities or serious injuries involving road traffic.
@@ -18,6 +19,7 @@ When planning and implementing this project, we were very much inspired by the a
 Where are the most dangerous spots?
 When do most collisions occur?
 What are the most frequent causes?
+
 
 ## Data Cleaning
 •	We replaced null values with “No Value Provided” in all the Dimensions keeping -99 as SK.
@@ -39,16 +41,40 @@ What are the most frequent causes?
 2. Staging Layer - staging data on BigQuery using Talend
 3. Preliminary dimensional model with source to target (S2T) mapping
 
-### Model
+### Model Folder
 
 1. Documentation of data cleaning, observations, and assumptions
 2. Integration Layer - cleaning and pushing data to final dimensional model on SQL Server
 
 ## Dimensional Model
 
+<br>
+<p align="center">
+	<img src="img/Picture1.png" width='100%'><br><br>
+    <em>Vehicle Collisions Data Model</em>
+</p>
+
 
 ## Visualisations
 Using PowerBI and Tableau
+
+<br>
+<p align="center">
+	<img src="img/v1.png" width='100%'><br><br>
+    <em>Visualisation - PowerBI</em>
+</p>
+
+<br>
+<p align="center">
+	<img src="img/v2.png" width='100%'><br><br>
+    <em>Visualisation - Tableau</em>
+</p>
+
+<br>
+<p align="center">
+	<img src="img/v3.png" width='100%'><br><br>
+    <em>Visualisation - Tableau</em>
+</p>
 
 
 
