@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Motor_Vehicle_Collisions_-_Vehicles.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UNIQUE_ID" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="COLLISION_ID" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CRASH_DATE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CRASH_TIME" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_ID" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_SEX" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PRE_CRASH" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+            <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\dhrit\Downloads\Motor_Vehicle_Collisions_-_Vehicles.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="246" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">UNIQUE_ID=True,COLLISION_ID=True,CRASH_DATE=True,CRASH_TIME=True,VEHICLE_ID=True,STATE_REGISTRATION=True,VEHICLE_TYPE=True,VEHICLE_MAKE=True,VEHICLE_MODEL=True,VEHICLE_YEAR=True,TRAVEL_DIRECTION=True,VEHICLE_OCCUPANTS=True,DRIVER_SEX=True,DRIVER_LICENSE_STATUS=True,DRIVER_LICENSE_JURISDICTION=True,PRE_CRASH=True,POINT_OF_IMPACT=True,VEHICLE_DAMAGE=True,VEHICLE_DAMAGE_1=True,VEHICLE_DAMAGE_2=True,VEHICLE_DAMAGE_3=True,PUBLIC_PROPERTY_DAMAGE=True,PUBLIC_PROPERTY_DAMAGE_TYPE=True,CONTRIBUTING_FACTOR_1=True,CONTRIBUTING_FACTOR_2=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="246" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhrit\AppData\Local\Temp\Engine_19324_5a3f5abdb665294cadbb9f25e5fdd245_\Engine_19324_d69b30c16673bc4389ee8ea1610e92eb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhrit\AppData\Local\Temp\Engine_19324_5a3f5abdb665294cadbb9f25e5fdd245_\Engine_19324_82b0b44587355941b8fb2b50c5889fa8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhrit\AppData\Local\Temp\Engine_19324_5a3f5abdb665294cadbb9f25e5fdd245_\Engine_19324_8e248b1f0c7de84290320ee4013e4aee~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhrit\AppData\Local\Temp\Engine_19324_5a3f5abdb665294cadbb9f25e5fdd245_\Engine_19324_8a61b00815ce9f47913fab0bf9b72c7f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhrit\AppData\Local\Temp\Engine_19324_5a3f5abdb665294cadbb9f25e5fdd245_\Engine_19324_e1d0561ed806b24399ffb5b197cfe999~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Vehicles</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1e14791a-a9b2-47d7-b216-045ba30197a8" />
+      <Telemetry>
+        <PreviousWorkflowId value="ba4d75c1-3f60-45ab-bc9f-69f20139f6e0" />
+        <OriginWorkflowId value="ba4d75c1-3f60-45ab-bc9f-69f20139f6e0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
