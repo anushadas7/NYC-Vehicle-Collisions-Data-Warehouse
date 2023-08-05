@@ -1,4 +1,4 @@
-# NYC-Vehicle-Collisions-Data-Warehourse
+# NYC-Vehicle-Collisions-Data-Warehouse
 
 ## About the dataset
 
