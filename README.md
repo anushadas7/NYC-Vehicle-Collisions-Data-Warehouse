@@ -23,13 +23,21 @@ What are the most frequent causes?
 
 ## Data Cleaning
 •	We replaced null values with “No Value Provided” in all the Dimensions keeping -99 as SK.
+
 •	We observed discrepancies in vehicle occupants, for example 2000 occupants. Since most of the data was wrong, we did not proceed with correcting/replacing.
+
 •	Redundant directions in Travel_Direction were changed to a homogeneous format.
+
 •	Vehicle_Year with nulls and values less than 1900 or greater than 2023 with 9999.
+
 •	Respective excel sheets are maintained for vehicle_type_code, vehicle_make, vehicle_model, vehicle_year with corrected data since these have large number of discrepancies. We implemented a lookup with these excel files instead of tReplace because it took a lot of memory on our systems.
+
 •	Contributing factors which had numbers and spelling errors were replaced with “Unknown” or the correct spelling.
+
 •	Driver_License_Jurisdiction format was maintained with a two-character format and invalid inputs such as special characters for example “-“, “PA’” etc were corrected or replaced with “Invalid Input”.
+
 •	Person_Age with negative/large values have been replaced with 0.
+
 •	It was observed that certain Collision_ID(s) in stg_NYC_MV_Collision_Person was not present in  stg_NYC_MV_Collision_Vehicle but present in stg_NYC_MV_Collision_Crashes. So we have assumed that there is Vehicle data missing for these Person_IDs 
 
 #### Assumptions
